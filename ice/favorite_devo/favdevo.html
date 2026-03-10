@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <table class="devo_table">
+          <th>Speaker:</th>
+          <th>Title:</th>
+          <th>Location:</th>
+          <th>Year:</th>
+          <tr>
+            <td>[1]</td>
+            <td>[2]</td>
+            <td>[3]</td>
+            <td>[4]</td>
+          </tr>
+          <tr>
+            <td>[1]</td>
+            <td>[2]</td>
+            <td>[3]</td>
+            <td>[4]</td>
+          </tr>
+          <tr>
+            <td>[1]</td>
+            <td>[2]</td>
+            <td>[3]</td>
+            <td>[4]</td>
+          </tr>
+        </table>
+        <form class="add">
+          <label for="speaker">Speaker:</label>
+          <input type="text" name="speaker" id="speaker">
+          <br><br>
+          <label for="title">Title:</label>
+          <input type="text" name="title" id="title">
+          <br><br>
+          <!-- <label for="location">Location:</label>
+          <input type="text" name="location" id="location">
+          <br> -->
+          <p>Location:</p>
+          <input type="radio" id="BYU" name="local" value="BYU">
+          <label for="BYU">BYU</label>
+          <input type="radio" id="BYU-I" name="local" value="BYU-I">
+          <label for="BYU-I">BYU-I</label>
+          <br>
+          <!-- <label for="year">Year:</label>
+          <input type="text" name="year" id="year">
+          -->
+          <label for="year">Date:</label>
+          <input type="date" id="year" name="year">
+
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

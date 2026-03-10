@@ -1,0 +1,26 @@
+/* Add your CSS here to style your valentines day page */
+body {
+background-color: violet;
+}
+
+#wrapper {
+    border: 20px solid black;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: crimson;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 35px;
+    background-color: black;
+    color: white;
+}
+
+ul :hover {
+    background-color: crimson;
+    color: white;
+}
