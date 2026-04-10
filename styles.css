@@ -82,6 +82,11 @@ main section img, main a img{
     box-sizing: border-box;
 }
 
+#report_content {
+    margin: auto;
+    max-width: 80%;
+}
+
 .card-img {
     margin-top: 50px;
     border: 10px solid black;
